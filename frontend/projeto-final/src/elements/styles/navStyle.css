@@ -1,0 +1,48 @@
+#navegacao {
+    position: fixed;
+    width: 60px;
+    top:40%;
+    & #lista {
+        list-style-type: none;
+        margin: 0;
+        padding:0;
+        color: var(--obsidian);
+        & li {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 25px;
+            
+            & button {
+                color: var(--steel-white);
+                border: 2px var(--pastel-blue) solid;
+                width: 60px;
+                height: 60px;
+                background-color: rgba(0,0,0,0);
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                & .icon {
+                    width: 30px;
+                    height: auto;
+                }
+            }
+            & .adminOption {
+                border-color: var(--obsidian-gray);
+                color: var(--steel-gray);
+            }
+            & .adminOption:hover {
+                background-color: var(--steel-gray) !important;
+                color: var(--obsidian);
+            }
+        }   & input {
+            background-color: red;
+            width: 200px;
+        }
+        & hr {
+            border: none;
+            border-top: 3px var(--obsidian-gray) solid;
+            margin-block: 2rem;
+        }
+    }
+}

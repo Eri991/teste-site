@@ -1,0 +1,40 @@
+#textoPrincipal {
+    position: absolute;
+    left: 13%;
+    top: 20%;
+    font-size: 30px;
+    & h1 {
+        font-size: 80px;
+        margin: 0;
+        padding: 0;
+        color: var(--steel-white);
+    }
+    & h2 {
+        margin: 0;
+        padding: 0;
+        color: var(--steel-gray);
+        text-indent: 5rem;
+    }
+    & #botaoPrincipal {
+        margin-top: 2rem;
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        background-color: rgba(0,0,0,0);
+        border: 2px var(--pastel-blue) solid;
+        border-radius: 40px;
+        color: var(--steel-white);
+        font-weight: 700;
+    }
+}
+
+#imagemPrincipal {
+    width: 600px;
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    & img {
+        width: 600px;
+        filter: drop-shadow(20px 20px 50px var(--pastel-blue));
+    }
+}

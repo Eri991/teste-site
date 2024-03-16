@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+#warningHeader {
+    width: 600px;
+    padding: 20px;
+    background-color: var(--obsidian-gray);
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 20px;
+    & h1 {
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+    & p {
+        color: var(--steel-white);
+        font-size: 20px;
+        text-align: center;
+    }
+}

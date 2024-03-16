@@ -1,0 +1,42 @@
+#infoClienteMain {
+    background-color: var(--obsidian-gray);
+    border-radius: 2rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    padding: 5rem;
+    color: var(--steel-white);
+}
+
+#imgBox {
+    width: 250px;
+    height: 220px;
+    & img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+#dados {
+    margin-left: 2rem;
+    & h2 {
+        font-weight: 700;
+        margin-bottom: 1rem;
+        font-size: 30px;
+    }
+    & p {
+        font-size: 20px;
+        font-style: italic;
+        color: var(--pastel-blue);
+    }
+    & .dado {
+        font-style: normal;
+        background-color: var(--obsidian);
+        color: var(--steel-gray);
+        padding: 10px;
+        margin-block: 0.7rem;
+        width: 300px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,25 @@
+#noMatchMain {
+    background-color: var(--obsidian-gray);
+    width: 600px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 30px;
+    color: var(--steel-white);
+    text-align: center;
+    font-size: 20px;
+    & h1{font-weight:900;margin:auto}
+    & h2 {font-weight: 700;margin-bottom:1rem;}
+    & #homeButton {
+        margin-top: 2rem;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgba(0,0,0,0);
+        color: var(--steel-white);
+        border: 2px var(--pastel-blue) solid;
+        & #icon {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

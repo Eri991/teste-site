@@ -1,0 +1,114 @@
+#tituloProdutos {
+    width: 140px;
+}
+
+#categoriesDiv {
+    background-color: var(--obsidian-gray);
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    & .category {
+        height: 30px;
+        background-color: var(--pastel-blue);
+        display: inline-flex;
+        align-items: center;
+        margin-inline: 10px;
+        border-radius: 10px;
+        padding-block: 3px;
+        padding-inline: 1rem;
+        & input {
+            margin-left: 0;
+            width: 20px;
+        }
+    }
+}
+
+#viewProdutosMain {
+    width: 80%;
+    margin: auto;
+}
+
+.productCard:nth-of-type(even) {
+    margin-left: 46px;
+}
+
+.productCard {
+    display: inline-flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: var(--obsidian-gray);
+    width: 500px;
+    margin-bottom: 2rem;
+    padding: 30px;
+    color: var(--steel-white);
+    border-radius: 20px;
+    & .productImage {
+        float: left;
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        margin-right: 2rem;
+        border-radius: 20px;
+    }
+    
+    & .productDescription {
+        position: relative;
+        & .productTitle {
+            color: var(--steel-white);
+            font-weight: 900;
+            margin-top: 1.2rem;
+        }
+        & .productDetails {
+            width: 400px;
+            position: absolute;
+            bottom: 0;
+            & .productOriginalPrice {
+                margin-bottom: 10px;
+                color: var(--steel-gray);
+                & s {
+                    font-style: italic;
+                }
+            }
+            & .productPrice {
+                font-size: 50px;
+                color: var(--pastel-blue);
+            }
+            & .productRating {
+                color: var(--steel-white);
+                font-size: 30px;
+                display: inline;
+            }
+            & .icon {
+                margin-left: 5px;
+                color: var(--steel-white);
+                display: inline;
+                font-size: 15px;
+            }
+            & .buyButton {
+                margin-top: 2rem;
+                background-color: rgba(0,0,0,0);
+                color: var(--steel-white);
+                border: 2px var(--pastel-blue) solid;
+                border-radius: 30px;
+                display: block;
+                width: 250px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+#productNotFound {
+    display: none;
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+    background-color: var(--obsidian-gray);
+    padding: 3rem;
+    color: var(--steel-white);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 2rem;
+}

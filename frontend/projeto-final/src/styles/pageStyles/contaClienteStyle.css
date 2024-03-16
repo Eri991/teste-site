@@ -1,0 +1,16 @@
+#contaClienteMain {
+    background-color: var(--obsidian-gray);
+    width: 800px;
+    height: 200px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+    color: var(--steel-white);
+    font-size: 30px;
+    padding: 40px;
+    & h1 {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
